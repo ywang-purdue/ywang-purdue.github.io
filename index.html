@@ -98,7 +98,7 @@
 							<a href="#3">Courses</a>
 						</li>
 						<li>
-							<a href="#4">Contact</a>
+							<a href="internal/blog-index.html">Blog</a>
 						</li>
 
 						
@@ -161,7 +161,7 @@
 					<p><a href="https://engineering.purdue.edu/~ips/">Video and Image Processing Laboratory</a></p>
 					<p><a href="http://www.tadaproject.org">TADA Project</a></p>
 					<p><a href="https://engineering.purdue.edu/~ace/">Prof. Edward J. Delp</a></p>
-					<p><a href="post_index.html">My Posts</a></p>
+					
 					
 				</aside> 
 				<aside id="sidebar" class="clearfix">
@@ -173,32 +173,6 @@
 				</aside> 
 				<!-- end of #sidebar -->
 			</div> <!-- end of .wrapper -->
-			<div class="home">
-
-  <div class="posts">
-    {% for post in paginator.posts %}
-      <div class="post">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h3 class="h2 post-title">{{ post.title }}</h3>
-          <p class="post-summary" style="color: #5c5e6a;font-size: 17px;font-size: 1.2rem;margin-top: 23px;">{{ post.summary }}</p>
-          
-          <ul class="meta-tag-list" style="float: left;margin-top: -17px;">
-            {% for tag in post.tags %}
-              <li class="meta-tag-item">
-                <a href="#" style="font-size: 15px;font-weight: 300;">{{ tag }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
-
-  {% include pagination.html %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</div>
 		</div> <!-- end of #main-container -->
 
 		<div id="page-footer-container" class="clearfix">
