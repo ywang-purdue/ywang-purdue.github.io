@@ -1,6 +1,6 @@
 ---
 published: true
-title: #review “Return of the Devil in the Details: Delving Deep into Convolutional Nets”
+title: review: “Return of the Devil in the Details: Delving Deep into Convolutional Nets”
 layout: post
 ---
 In this paper, the authors intend to compare deep features extracted from different CNN methods to the previously state-of-art shallow features, or the handcraft features, such as Bag-of-Words and the improved Fisher Vectors. The authors evaluate shallow and deep representations on a common ground of object recognition tasks.
