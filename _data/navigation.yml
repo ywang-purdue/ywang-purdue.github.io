@@ -1,7 +1,10 @@
 # main links links
 main:
-  - title: "Bio"
-    url: /bio.html
-
+  - title: "About Me"
+    url: /about
+  - title: "Research"
+    url: /research
   - title: "My Posts"
     url: /
+  - title: "Courses"
+    url: /courses
