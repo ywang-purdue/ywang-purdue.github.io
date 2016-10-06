@@ -1,6 +1,0 @@
----
-published: true
-title: ttt
-layout: post
----
-yyy
