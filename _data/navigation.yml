@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Bio"
-    url: bio.html
+    url: /bio.html
 
   - title: "My Posts"
     url: /
