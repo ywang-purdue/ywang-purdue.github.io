@@ -7,8 +7,8 @@ In this paper, the authors intend to compare deep features extracted from differ
 
 ## Some key take-aways:
 
-- As for the shallow feature implementation, it seems that using spatially extended local descriptors instead of spatially pyramid and appending color features (Local Color Statistics) to the SIFT features give better result. However, the improvement by using color features is small if data augmentation is applied.
-- L2 normalization is important for both FV and deep features before applying SVM method for classification.
+[test1] As for the shallow feature implementation, it seems that using spatially extended local descriptors instead of spatially pyramid and appending color features (Local Color Statistics) to the SIFT features give better result. However, the improvement by using color features is small if data augmentation is applied.
+[test2] L2 normalization is important for both FV and deep features before applying SVM method for classification.
 - Augmentation works for both shallow feature and deep feature. (Cropping and flipping)
 - Combining deep feature and IFV makes little difference as the authors tested.
 - Deep features outperforms shallow features in terms of computational time and feature dimension.
