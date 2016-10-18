@@ -15,3 +15,4 @@ Linear behavior in high-dimensional spaces is suf- ficient to cause adversarial 
 
 1. CVPR15: Deep neural networks are easily fooled: High confidence predictions for unrecognizable images
 2. http://www.kdnuggets.com/2015/07/deep-learning-adversarial-examples-misconceptions.html
+3. Hitting Depth: Investigating Robustness to Adversarial Examples in Deep Convolutional Neural Networks
