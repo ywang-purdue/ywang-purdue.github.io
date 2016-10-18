@@ -11,6 +11,7 @@ In this paper, the authors tried to give an explanation of the haunting adversar
 Linear behavior in high-dimensional spaces is suf- ficient to cause adversarial examples. This view enables us to design a fast method of generating adversarial examples that makes adversarial training practical. We show that adversarial training can provide an additional regularization benefit beyond that provided by using dropout (Srivastava et al., 2014) alone. Generic regularization strategies such as dropout, pretraining, and model averaging do not confer a significant reduction in a model’s vulnerability to adversarial examples, but changing to nonlinear model families such as RBF networks can do so.
 "
 
-## Related paper
+## Related
 
 1. CVPR15: Deep neural networks are easily fooled: High confidence predictions for unrecognizable images
+2. http://www.kdnuggets.com/2015/07/deep-learning-adversarial-examples-misconceptions.html
